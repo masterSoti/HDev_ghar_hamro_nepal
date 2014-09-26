@@ -2,6 +2,9 @@
 
 
 //=========================================================javascript===============================================================
-function(){
-	document.getElementById("home_date").innerHTML = Date();
+//date javascript	
+var date = function(){
+	var x = new Date();
+	document.getElementById("home_date_english").innerHTML = x.toDateString();
 }
+date();
