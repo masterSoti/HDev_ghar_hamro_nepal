@@ -3,8 +3,8 @@
 
 //=========================================================javascript===============================================================
 //date javascript	
-var date = function(){
+function date_english(){
 	var x = new Date();
 	document.getElementById("home_date_english").innerHTML = x.toDateString();
 }
-date();
+date_english();

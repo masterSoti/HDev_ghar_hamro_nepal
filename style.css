@@ -17,6 +17,7 @@ html{
 #home_date p{
 	display:inline-block;
 	margin:auto;
+	color:black;
 }
 #home_logo{
 	height:155px;
@@ -38,4 +39,9 @@ html{
 	line-height: 40px;
 	text-align:center;
 	color:white;
+	cursor:pointer;
+}
+#home_nav td:hover{
+	color:gray;
+	background-color:white;
 }
