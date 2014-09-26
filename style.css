@@ -18,6 +18,7 @@ html{
 	display:inline-block;
 	margin:auto;
 	color:black;
+	line-height:25px;
 }
 #home_logo{
 	height:155px;
