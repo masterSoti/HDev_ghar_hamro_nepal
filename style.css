@@ -1,0 +1,15 @@
+html{
+	background:url('images/fresh_snow.png') center center fixed;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}
+#home_container{
+	width:1300px;
+	height:2000px;/*remember that this should only be temorary*/
+	border:1px solid red;/*remember that this should only be temorary*/
+	margin:0 auto;
+}
+#home_date{
+	
+}
