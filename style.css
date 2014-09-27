@@ -48,23 +48,15 @@ html{
 	height:45px;
 	background-color:rgb(188, 155, 155);
 }
-#home_music_row div{
-	display:inline-block;
-	width:300px;
+#home_music_row td{
 	height:inherit;
+	width:300px;
 	background-color:rgb(150, 189, 170);
 	text-align:center;
 }
-#home_one_minute_song{
-	float:left;
-	margin-left:10px;
-}
-#home_sharing{
-	margin:auto;
-}
-#home_full_song{
-	float:right;
-	margin-right:10px;
+#home_music_row table{
+	height:inherit;
+	width:100%;
 }
 #home_nav{
 	background-color:gray;
