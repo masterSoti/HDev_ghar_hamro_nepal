@@ -57,12 +57,14 @@ html{
 }
 #home_one_minute_song{
 	float:left;
+	margin-left:10px;
 }
 #home_sharing{
-	margin-left:200px;
+	margin:auto;
 }
 #home_full_song{
 	float:right;
+	margin-right:10px;
 }
 #home_nav{
 	background-color:gray;
