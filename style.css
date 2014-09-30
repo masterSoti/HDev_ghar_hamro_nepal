@@ -1,12 +1,33 @@
 html{
 	background:url('images/fresh_snow.png') center center fixed;
-	margin:-8 auto;
+	margin:0 auto;
 	width:100%;
 	height:100%;
 }
-#home_container{
-	width:1300px;
+body{
+	width:100%;
+	height:100%;
+	margin:0px 0px;
+	background-color:rgba(0,75,255,0.35);
+}
+#home_full{
 	margin:0 auto;
+	border-right:9px solid blue;
+	border-left:9px solid blue;
+	border-bottom:9px solid blue;
+	border-top:9px solid blue;	
+	width:1104px;
+	padding:0px 0px;
+	border-radius:5px;
+}
+#home_container{
+	width:1100px;
+	margin:0 auto;
+	border-right: 6px solid red;
+	border-left: 6px solid red;
+	border-bottom:9px solid red;
+	border-top:9px solid red;	
+	margin-left: -4px;
 }
 #home_date{
 	margin:0px auto;
@@ -46,12 +67,11 @@ html{
 }
 #home_music_row{
 	height:45px;
-	background-color:rgb(188, 155, 155);
+	background-color:rgb(230, 230, 234);
 }
 #home_music_row td{
 	height:inherit;
 	width:300px;
-	background-color:rgb(150, 189, 170);
 	text-align:center;
 }
 #home_music_row table{
